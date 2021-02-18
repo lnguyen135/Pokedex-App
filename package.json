@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/code-differently/Pokedex-App#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }

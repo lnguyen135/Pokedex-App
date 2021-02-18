@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+    color:  back;
+    margin: 0;
+    font-family: rubik;
+}
+
+.container {
+    padding: 80px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 80px;
+    padding-inline-start: 0;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: gray;
+    color: #222;
+  text-align: center;
+}
+
+
+.card:hover {
+    animation: bounce 0.5s linear;
+}
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+    
+}
+.card-subtitle {
+    margin-top: 5px;
+    color: back;
+    font-weight: lighter;
+}
+
+.card-image {
+    height: 180px;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0);
+    }
+}
+
+.background__green {
+    background-color: green;
+}
+
+.background__red {
+    background-color: red;
+}
+
+.background__yellow {
+    background-color: yellow;
+}
+
+.background__blue {
+    background-color: blue;
+}
+
+.background__pink {
+    background-color: pink;
+}
+
+.background__purple {
+    background-color: purple;
+}
+
+.background__brown {
+    background-color: brown;
+}
+
+.background__orange {
+    background-color: orange;
+}
+
+.background__lightblue {
+    background-color: lightblue;
+}
+
+.background__lightsalmon {
+    background-color: lightsalmon;
+}
+
+.background__lightseagreen {
+    background-color: lightseagreen;
+}
+
+.background__lightsteelblue {
+    background-color: lightsteelblue;
+}
+
+.background__steelblue {
+    background-color: steelblue;
+}
+
+.background__seagreen {
+    background-color: seagreen;
+}
+
+.background__salmon {
+    background-color: salmon;
+}
+
+.background__lightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.background__lightslategrey {
+    background-color: lightslategrey;
+}
+
+.background__lightskyblue {
+    background-color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
